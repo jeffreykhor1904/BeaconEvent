@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{CDFA68B7-2527-4198-97C9-A50ECFDF563B}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BeaconEvent/App.xaml">
+    <Files>
+      <File FileName="BeaconEvent/MainPage.xaml.cs" Line="13" Column="30" />
+      <File FileName="BeaconEvent/MainPage.xaml" Line="41" Column="18" />
+      <File FileName="BeaconEvent/Models/MiscModels.cs" Line="11" Column="50" />
+      <File FileName="BeaconEvent/ViewModels/MainPageViewModel.cs" Line="20" Column="72" />
+      <File FileName="BeaconEvent/DevicePage.xaml" Line="85" Column="63" />
+      <File FileName="BeaconEvent/App.xaml" Line="24" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BeaconEvent" expanded="True">
+            <Node name="BeaconEvent" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True" />
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="App.xaml" expanded="True" selected="True" />
+              <Node name="DevicePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <AuthorInfo Name="jeffreykhor1904" Email="Jeffrey@syt.com" Copyright="SYT SOLUTION PLT" Company="SYT SOLUTION PLT" Trademark="SYT SOLUTION PLT" />
+  <MonoDevelop.Ide.ItemProperties.BeaconEvent PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Debugger.DebugSourceFolders />
+  <MultiItemStartupConfigurations />
+</Properties>
