@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291519061402",
+    "project_id": "beaconevent-87297",
+    "storage_bucket": "beaconevent-87297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291519061402:android:9e34026422ed0e23132e23",
+        "android_client_info": {
+          "package_name": "com.syt.beaconevent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291519061402-i3nmc3r0ff2veoj0n8rh032b087pn1ec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmcZ5AHnzkMUTlmY4K1exJKpVDk66SJzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291519061402-i3nmc3r0ff2veoj0n8rh032b087pn1ec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

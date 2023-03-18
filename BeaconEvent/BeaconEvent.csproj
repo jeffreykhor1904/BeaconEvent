@@ -77,11 +77,22 @@
 	  <None Remove="Controls\" />
 	  <None Remove="ViewModels\" />
 	  <None Remove="Models\" />
+	  <None Remove="Platforms\Android\google-services.json" />
+	  <None Remove="Platforms\Android\Services\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Handlers\" />
 	  <Folder Include="Controls\" />
 	  <Folder Include="ViewModels\" />
 	  <Folder Include="Models\" />
+	  <Folder Include="Platforms\Android\Services\" />
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
+	  <PackageReference Include="Xamarin.GooglePlayServices.Base" Version="118.1.0.1" />
+	  <PackageReference Include="Xamarin.Firebase.Messaging" Version="123.1.1.1" />
+	  <PackageReference Include="Xamarin.Google.Dagger" Version="2.44.2.1" />
+	</ItemGroup>
+	<ItemGroup>
+	  <GoogleServicesJson Include="Platforms\Android\google-services.json" />
 	</ItemGroup>
 </Project>

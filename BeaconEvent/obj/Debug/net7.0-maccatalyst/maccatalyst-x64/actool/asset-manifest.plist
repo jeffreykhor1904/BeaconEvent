@@ -6,9 +6,9 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/bundle/Assets.car</string>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/bundle/appicon.icns</string>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/partial-info.plist</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/bundle/Assets.car</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/bundle/appicon.icns</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>

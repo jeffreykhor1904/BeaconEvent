@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BeaconEvent
-build_property.ProjectDir = /Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/
+build_property.ProjectDir = /Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/App.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/AppShell.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/Controls/FlyoutHeaderControl.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/Controls/FlyoutHeaderControl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.Controls.FlyoutHeaderControl.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls/FlyoutHeaderControl.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls/FlyoutHeaderControl.xaml
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/DevicePage.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/DevicePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.DevicePage.xaml
 build_metadata.AdditionalFiles.TargetPath = DevicePage.xaml
 build_metadata.AdditionalFiles.RelativePath = DevicePage.xaml
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/MainPage.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/Resources/Styles/Colors.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/Resources/Styles/Styles.xaml]
+[/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BeaconEvent.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml

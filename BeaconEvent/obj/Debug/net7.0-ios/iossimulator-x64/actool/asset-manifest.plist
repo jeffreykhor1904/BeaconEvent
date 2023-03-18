@@ -6,10 +6,10 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/bundle/Assets.car</string>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/bundle/appicon60x60@2x.png</string>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/bundle/appicon76x76@2x~ipad.png</string>
-			<string>/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/partial-info.plist</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/bundle/Assets.car</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/bundle/appicon60x60@2x.png</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/bundle/appicon76x76@2x~ipad.png</string>
+			<string>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-ios/iossimulator-x64/actool/partial-info.plist</string>
 		</array>
 	</dict>
 </dict>

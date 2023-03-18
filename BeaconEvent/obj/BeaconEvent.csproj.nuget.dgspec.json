@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj": {}
+    "/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj": {}
   },
   "projects": {
-    "/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj": {
+    "/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj",
+        "projectUniqueName": "/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj",
         "projectName": "BeaconEvent",
-        "projectPath": "/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj",
+        "projectPath": "/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/BeaconEvent.csproj",
         "packagesPath": "/Users/jeffreykhor1904/.nuget/packages/",
-        "outputPath": "/Users/jeffreykhor1904/Documents/Visual Studio 2019/Projects/BeaconEvent/BeaconEvent/obj/",
+        "outputPath": "/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -144,6 +144,10 @@
               "version": "[1.1.0-alpha03, )",
               "autoReferenced": true
             },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[123.1.1.1, )"
+            },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
               "version": "[1.7.0, )",
@@ -153,6 +157,14 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
+            },
+            "Xamarin.Google.Dagger": {
+              "target": "Package",
+              "version": "[2.44.2.1, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[118.1.0.1, )"
             }
           },
           "imports": [
@@ -183,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -266,7 +278,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -350,7 +362,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
