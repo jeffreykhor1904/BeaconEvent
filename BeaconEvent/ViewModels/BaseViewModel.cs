@@ -1,6 +1,5 @@
 ﻿using System;
 using CommunityToolkit.Mvvm.ComponentModel;
-//using Microsoft.Toolkit.Mvvm.ComponentModel;
 
 namespace BeaconEvent.ViewModels
 {
@@ -18,6 +17,6 @@ namespace BeaconEvent.ViewModels
         string title;
 
         public bool IsNotBusy => !IsBusy;
-        public bool IsNotScanning => !isScanning;
+        public bool IsNotScanning => !IsScanning;
     }
 }

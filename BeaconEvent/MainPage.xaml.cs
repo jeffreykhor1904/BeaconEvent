@@ -1,5 +1,7 @@
 ﻿using System.Text;
+using BeaconEvent.Models;
 using BeaconEvent.ViewModels;
+using CommunityToolkit.Mvvm.Messaging;
 using Newtonsoft.Json;
 
 namespace BeaconEvent;
@@ -9,12 +11,19 @@ public partial class MainPage : ContentPage
     //int count = 0;
     private string _deviceToken;
 
-	public MainPage(MainPageViewModel viewModel)
-	{
+	public MainPage(MainPageViewModel viewModel) //
+    {
 		InitializeComponent();
-        BeaconEventWebView.Source = "https://learn.microsoft.com/dotnet/maui";
-		BindingContext = viewModel;
+		this.BindingContext = viewModel;
+        BeaconEventWebView.Source = "https://www.google.com"; //"https://learn.microsoft.com/dotnet/maui";
+
+        WeakReferenceMessenger.Default.Register<PushNotificationReceived>(this, (r, m) =>
+        {
+            string msg = m.Value;
+            NavigateToPage();
+        });
         if (Preferences.ContainsKey("DeviceToken")) { _deviceToken = Preferences.Get("DeviceToken", ""); }
+        NavigateToPage();
     }
 
     protected override void OnNavigatedTo(NavigatedToEventArgs args)
@@ -37,6 +46,23 @@ public partial class MainPage : ContentPage
         base.OnDisappearing();
     }
 
+    private void NavigateToPage()
+    {
+        if (Preferences.ContainsKey("NavigationID"))
+        {
+            string id = Preferences.Get("NavigationID", "");
+            if (id == "1")
+            {
+                AppShell.Current.GoToAsync(nameof(PreviewPage));
+            }
+            if (id == "2")
+            {
+                AppShell.Current.GoToAsync(nameof(DevicePage));
+            }
+            Preferences.Remove("NavigationID");
+        }
+    }
+
     private async void OnCounterClicked(object sender, EventArgs e)
     {
         //count++;
@@ -45,13 +71,16 @@ public partial class MainPage : ContentPage
         //else
         //    CounterBtn.Text = $"Clicked {count} times";
         //SemanticScreenReader.Announce(CounterBtn.Text);
+        var androidNotificationObject = new Dictionary<string, string>();
+        androidNotificationObject.Add("NavigationID", "1");
         var pushNotificationRequest = new PushNotificationRequest
         {
-            NotificationCenter = new NotificationMessageBody
+            notification = new NotificationMessageBody
             {
                 title = "Notification Title",
                 body = "Notification Body"
             },
+            data = androidNotificationObject,
             registration_ids = new List<string> { _deviceToken }
         };
 

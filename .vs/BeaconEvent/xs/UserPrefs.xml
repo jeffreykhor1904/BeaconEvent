@@ -1,45 +1,46 @@
 ﻿<Properties StartupConfiguration="{CDFA68B7-2527-4198-97C9-A50ECFDF563B}|Default">
-  <AuthorInfo Name="jeffreykhor1904" Email="Jeffrey@syt.com" Copyright="SYT SOLUTION PLT" Company="SYT SOLUTION PLT" Trademark="SYT SOLUTION PLT" />
-  <MonoDevelop.Ide.ItemProperties.BeaconEvent PreferredExecutionTarget="MyAppleMacCatalystID" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <Debugger.DebugSourceFolders />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BeaconEvent/Platforms/Android/MainActivity.cs">
+  <MonoDevelop.Ide.ItemProperties.BeaconEvent PreferredExecutionTarget="Android.QMUGY18814000067" />
+  <AuthorInfo Name="jeffreykhor1904" Email="Jeffrey@syt.com" Copyright="SYT SOLUTION PLT" Company="SYT SOLUTION PLT" Trademark="SYT SOLUTION PLT" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BeaconEvent/ViewModels/MainPageViewModel.cs">
     <Files>
-      <File FileName="BeaconEvent/MainPage.xaml.cs" Line="61" Column="10" />
-      <File FileName="BeaconEvent/MainPage.xaml" Line="1" Column="1" />
-      <File FileName="BeaconEvent/Models/MiscModels.cs" Line="1" Column="1" />
-      <File FileName="BeaconEvent/ViewModels/MainPageViewModel.cs" Line="14" Column="88" />
-      <File FileName="BeaconEvent/DevicePage.xaml" />
-      <File FileName="BeaconEvent/App.xaml" />
-      <File FileName="BeaconEvent/Platforms/Android/Services/FirebaseService.cs" Line="19" Column="86" />
-      <File FileName="BeaconEvent/Platforms/Android/MainActivity.cs" Line="15" Column="64" />
+      <File FileName="BeaconEvent/MainPage.xaml.cs" Line="18" Column="60" />
+      <File FileName="BeaconEvent/MainPage.xaml" Line="10" Column="269" />
+      <File FileName="BeaconEvent/ViewModels/MainPageViewModel.cs" Line="121" Column="28" />
+      <File FileName="BeaconEvent/Services/BluetoothLEService.cs" Line="163" Column="79" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BeaconEvent" expanded="True">
-            <Node name="BeaconEvent" expanded="True">
+            <Node name="BeaconEvent" expanded="True" selected="True">
+              <Node name="Controls" expanded="True">
+                <Node name="FlyoutHeaderControl.xaml" expanded="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Platforms" expanded="True">
-                <Node name="Android" expanded="True">
-                  <Node name="Services" expanded="True" />
-                  <Node name="MainActivity.cs" selected="True" />
-                </Node>
-                <Node name="iOS" expanded="True" />
+                <Node name="Android" expanded="True" />
               </Node>
               <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.QMUGY18814000067" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.26" />
 </Properties>

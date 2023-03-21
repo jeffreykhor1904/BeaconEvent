@@ -8,7 +8,6 @@ public class BluetoothLEPermissions : Permissions.BasePlatformPermission
         {
             return new List<(string androidPermission, bool isRuntime)>
             {
-
                 (Android.Manifest.Permission.Bluetooth, true),
                 (Android.Manifest.Permission.BluetoothAdmin, true),
                 (Android.Manifest.Permission.BluetoothScan, true),
@@ -16,7 +15,6 @@ public class BluetoothLEPermissions : Permissions.BasePlatformPermission
                 (Android.Manifest.Permission.AccessFineLocation, true),
                 (Android.Manifest.Permission.AccessCoarseLocation, true),
                 //(Android.Manifest.Permission.AccessBackgroundLocation, true),
-
             }.ToArray();
         }
     }

@@ -116,6 +116,43 @@ namespace BeaconEvent.ViewModels
             }
         }
 
+        async Task RequestPermissionAsync()
+        {
+            if (IsScanning)
+            {
+                return;
+            }
+
+            try
+            {
+                if (!BluetoothLEService.BluetoothLE.IsAvailable)
+                {
+                    Debug.WriteLine($"Error: Bluetooth is missing.");
+                    await Shell.Current.DisplayAlert($"Bluetooth", $"Bluetooth is missing.", "OK");
+                    return;
+                }
+                if (BluetoothLEService.BluetoothLE.IsOn)
+                {
+                    PermissionStatus permissionStatus = await BluetoothLEService.RequestBluetoothPermissions();
+                    if (permissionStatus != PermissionStatus.Granted)
+                    {
+                        await Shell.Current.DisplayAlert($"Bluetooth LE permissions", $"Bluetooth LE permissions are not granted.", "OK");
+                        return;
+                    }
+                }
+                else
+                {
+                    await Shell.Current.DisplayAlert($"Bluetooth is not on", $"Please turn Bluetooth on and try again.", "OK");
+                }
+
+            }
+            catch(Exception ex)
+            {
+                Debug.WriteLine($"Unable to check Bluetooth Permission: {ex.Message}");
+                await Shell.Current.DisplayAlert($"Unable to check Bluetooth Permission", $"{ex.Message}.", "OK");
+            }
+        }
+
         async Task CheckBluetoothAvailabilityAsync()
         {
             if (IsScanning)

@@ -1,5 +1,6 @@
 ﻿using System;
 using Android.App;
+using Android.Content;
 using AndroidX.Core.App;
 using Firebase.Messaging;
 
@@ -29,7 +30,19 @@ namespace BeaconEvent.Platforms.Android.Services
 
         private void SendNotification(string messageBody, string title, IDictionary<string, string> data)
         {
-            var notificationBuilder = new NotificationCompat.Builder(this, MainActivity.Channel_ID).SetContentTitle(title).SetSmallIcon(Resource.Mipmap.appicon).SetContentTitle(messageBody).SetChannelId(MainActivity.Channel_ID).SetPriority(2);
+            var intent = new Intent(this, typeof(MainActivity));
+            intent.AddFlags(ActivityFlags.ClearTop);
+            intent.AddFlags(ActivityFlags.SingleTop);
+
+            foreach (var key in data.Keys)
+            {
+                string value = data[key];
+                intent.PutExtra(key, value);
+            }
+
+            var pendingIntent = PendingIntent.GetActivity(this, MainActivity.NotificationID, intent, PendingIntentFlags.OneShot);
+
+            var notificationBuilder = new NotificationCompat.Builder(this, MainActivity.Channel_ID).SetContentTitle(title).SetSmallIcon(Resource.Mipmap.appicon).SetContentTitle(messageBody).SetChannelId(MainActivity.Channel_ID).SetContentIntent(pendingIntent).SetPriority(2);
             var notificationManager = NotificationManagerCompat.From(this);
             notificationManager.Notify(MainActivity.NotificationID, notificationBuilder.Build());
         }

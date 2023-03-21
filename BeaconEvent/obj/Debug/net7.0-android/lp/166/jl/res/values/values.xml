@@ -1,1 +1,16 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><!-- blaze-out/k8-opt/genfiles/java/com/google/android/gmscore/integ/fast/res/values/gmscore_version.xml --><eat-comment /><integer name="google_play_services_version">12451000</integer><!-- java/com/google/android/gmscore/integ/client/common/res/values/strings.xml --><eat-comment /><string name="common_google_play_services_unknown_issue"><xliff:g id="app_name">%1$s</xliff:g> is having trouble with Google Play services. Please try again.</string></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sliding_pane_detail_pane_width">300dp</dimen>
+    <item name="nav_host_fragment_container" type="id"/>
+    <item name="sliding_pane_detail_container" type="id"/>
+    <item name="sliding_pane_layout" type="id"/>
+    <declare-styleable name="DialogFragmentNavigator">
+        <attr name="android:name"/>
+    </declare-styleable>
+    <declare-styleable name="FragmentNavigator">
+        <attr name="android:name"/>
+    </declare-styleable>
+    <declare-styleable name="NavHostFragment">
+        <attr format="boolean" name="defaultNavHost"/>
+    </declare-styleable>
+</resources>
