@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{CDFA68B7-2527-4198-97C9-A50ECFDF563B}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.QMUGY18814000067" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.BeaconEvent PreferredExecutionTarget="Android.QMUGY18814000067" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <AuthorInfo Name="jeffreykhor1904" Email="Jeffrey@syt.com" Copyright="SYT SOLUTION PLT" Company="SYT SOLUTION PLT" Trademark="SYT SOLUTION PLT" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.26" />
   <MonoDevelop.Ide.Workbench ActiveDocument="BeaconEvent/ViewModels/MainPageViewModel.cs">
     <Files>
       <File FileName="BeaconEvent/MainPage.xaml.cs" Line="18" Column="60" />
-      <File FileName="BeaconEvent/MainPage.xaml" Line="10" Column="269" />
-      <File FileName="BeaconEvent/ViewModels/MainPageViewModel.cs" Line="121" Column="28" />
-      <File FileName="BeaconEvent/Services/BluetoothLEService.cs" Line="163" Column="79" />
+      <File FileName="BeaconEvent/MainPage.xaml" Line="10" Column="105" />
+      <File FileName="BeaconEvent/ViewModels/MainPageViewModel.cs" Line="146" Column="14" />
+      <File FileName="BeaconEvent/Services/BluetoothLEService.cs" Line="158" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -37,10 +41,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.QMUGY18814000067" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.26" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Debugger.DebugSourceFolders />
 </Properties>

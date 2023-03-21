@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="BeaconEvent.app/Contents/MacOS/BeaconEvent">
+      <BCSymbolMapName>BeaconEvent.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>BeaconEvent.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>BeaconEvent.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/jeffreykhor1904/Documents/Visual_Studio/Projects/BeaconEvent/BeaconEvent</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

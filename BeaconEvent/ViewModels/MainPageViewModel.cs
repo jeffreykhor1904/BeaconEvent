@@ -16,6 +16,7 @@ namespace BeaconEvent.ViewModels
         public IAsyncRelayCommand GoToDevicePageAsyncCommand { get; }
         public IAsyncRelayCommand ScanNearbyDevicesAsyncCommand { get; }
         public IAsyncRelayCommand CheckBluetoothAvailabilityAsyncCommand { get; }
+        public IAsyncRelayCommand RequestPermissionAsyncCommand { get; }
 
         public MainPageViewModel(BluetoothLEService bluetoothLEService)
         {
@@ -27,6 +28,7 @@ namespace BeaconEvent.ViewModels
 
             ScanNearbyDevicesAsyncCommand = new AsyncRelayCommand(ScanDevicesAsync);
             CheckBluetoothAvailabilityAsyncCommand = new AsyncRelayCommand(CheckBluetoothAvailabilityAsync);
+            RequestPermissionAsyncCommand = new AsyncRelayCommand(RequestPermissionAsync);
         }
 
         async Task GoToDevicePageAsync(DeviceCandidate deviceCandidate)
@@ -133,12 +135,16 @@ namespace BeaconEvent.ViewModels
                 }
                 if (BluetoothLEService.BluetoothLE.IsOn)
                 {
+#if ANDROID
                     PermissionStatus permissionStatus = await BluetoothLEService.RequestBluetoothPermissions();
                     if (permissionStatus != PermissionStatus.Granted)
                     {
                         await Shell.Current.DisplayAlert($"Bluetooth LE permissions", $"Bluetooth LE permissions are not granted.", "OK");
                         return;
                     }
+#elif IOS
+#elif WINDOWS
+#endif
                 }
                 else
                 {
